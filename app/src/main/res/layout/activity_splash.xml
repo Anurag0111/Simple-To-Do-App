@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This a "Splash Screen" XML file, here all the text view, Image view are laid in a linearly fashion inside the Linear layout. The reason of linear layout is for accurately placing the logo and the progress bar without happen to use the constraints -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white">
+
+  <!-- Don't worry about the id names I have named the id's with reference to the file name for consistency -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/ic_baseline24"
+        app:srcCompat="@drawable/ic_baseline24"
+        app:tint="#e1e1e1" />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    android:text="KEEP IT SIMPLE"
+     android:fontFamily="@font/poppinsmedium"
+     android:textColor="@color/teal_700"
+     android:padding="5dp"
+
+     android:textSize="15dp"
+     />
+
+
+</LinearLayout>
